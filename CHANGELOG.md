@@ -1,5 +1,9 @@
 # NodeJS Cookbook Changelog
 
+## 5.1.0 (2018-07-09)
+
+- Add `node_env` property to `npm_package` resource
+
 ## 5.0.0 (2017-11-15)
 
 - nodejs_npm resource has been converted to a custom resource and renamed to npm_package. The existing resource name will continue to function, but over time code should be updated for the new name. This name change has been made so we can eventually merge this resource into the chef-client.
