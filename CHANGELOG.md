@@ -1,5 +1,9 @@
 # NodeJS Cookbook Changelog
 
+## 6.1.0 (2019-01-08)
+
+- Add node_env property to npm_package resource (#195)
+
 ## 6.0.0 (2018-10-11)
 
 - Use the build_essential resource in the source install recipe instead of the build-essential::default recipe. This way we can use the new built-in build_essential resource in Chef 14+
